@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HarassFree</string>
+    <string-array name="harassment_types">
+        <item>Type of Harassment</item>
+        <item>Verbal Abuse</item>
+        <item>Sexual Harassment</item>
+        <item>Bullying</item>
+        <item>Stalking</item>
+        <item>Cyber Harassment</item>
+        <item>Discrimination</item>
+        <item>Abuse of Authority by Staff or Faculty</item>
+    </string-array>
+
+</resources>
+
