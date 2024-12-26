@@ -88,7 +88,7 @@ class ReportIncidentActivity : AppCompatActivity() {
                         putExtra(Intent.EXTRA_EMAIL, arrayOf(
                             "kadavakallubabu17@gmail.com",
                             "ro200774@rguktong.ac.in",
-                            "sukumarsmiley62@gmail.com"
+                            "saikumarsmiley62@gmail.com"
                         ))
                         putExtra(Intent.EXTRA_SUBJECT, emailSubject)
                         putExtra(Intent.EXTRA_TEXT, emailBody)

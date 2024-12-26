@@ -12,12 +12,26 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/tipsTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/item_official" />
 
+    <!-- TextView to display safety tips -->
+    <TextView
+        android:id="@+id/tipsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Tips for Safety:\n1. Always be aware of your surroundings.\n2. Save emergency contact numbers.\n3. Avoid sharing personal information with strangers.\n4. Reach out to the listed officials if you feel unsafe.\n5. Use the HarassFree app's SOS feature in emergencies." />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
