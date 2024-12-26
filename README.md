@@ -26,6 +26,6 @@ Ensure permissions are granted for a better experience.
 
 TEAM MEMBERS DETAILS:
 1.Kadavakallu Saikumar (ro200774)
-2.Avula Rohith (ro200132)
-3.k.Victor Vamsi(ro200938)
+2.Arelli Raju (ro2001110)
+3.Laghuvarapu Sarath Chandra(ro200354)
 4.Kadali Sai Rajesh(ro200770)
