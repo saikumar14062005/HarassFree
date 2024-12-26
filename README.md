@@ -27,9 +27,9 @@ Open the app. Follow the intuitive interface to explore its features. Ensure per
 ### Team members details:
 1.Kadavakallu Saikumar (ro200774) 
 
-2.Avula Rohith (ro200132) 
+2.Arelli Raju (ro201110) 
 
-3.k.Victor Vamsi(ro200938) 
+3.Laghuvarapu Sarath Chandra(ro200354) 
 
 4.Kadali Sai Rajesh(ro200770)
 
