@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:text="Official Name"
             android:textStyle="bold"
+            android:textColor="#1B1C1D"
             android:textSize="16sp" />
 
         <TextView
@@ -33,6 +34,6 @@
             android:layout_height="wrap_content"
             android:text="example@gmail.com"
             android:textSize="14sp"
-            android:textColor="#666" />
+            android:textColor="#1B1515" />
     </LinearLayout>
 </LinearLayout>

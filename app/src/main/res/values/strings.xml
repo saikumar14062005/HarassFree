@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">HarassFree</string>
     <string-array name="harassment_types">
-        <item>Type of Harassment</item>
+        <!--        <item>Type of Harassment</item>-->
         <item>Verbal Abuse</item>
         <item>Sexual Harassment</item>
         <item>Bullying</item>
@@ -10,6 +10,8 @@
         <item>Discrimination</item>
         <item>Abuse of Authority by Staff or Faculty</item>
     </string-array>
+    <string name="default_web_client_id">786194472165-jnjvbgon2o7rr1cqbmtmpucagdcn8vgl.apps.googleusercontent.com</string>
+    <string name="types_of_harassment">Types of Harassment\n</string>
 
 </resources>
 

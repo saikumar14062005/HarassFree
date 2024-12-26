@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:background="@drawable/gradient_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -10,7 +10,27 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <!-- Heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:textColor="@color/black"
+            android:layout_marginStart="150dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
         <!-- Type of Harassment -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type of Harassment"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,10 +50,21 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:entries="@array/harassment_types" />
+                android:entries="@array/harassment_types"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/types_of_harassment"/>
         </LinearLayout>
 
         <!-- Location -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,12 +84,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_marginTop="8dp"
-                android:hint="Location"
+                android:hint="Enter location"
+                android:textColorHint="@color/dark_gray"
+                android:background="@drawable/rectangle_background"
+                android:padding="12dp"
                 android:inputType="text" />
         </LinearLayout>
 
         <!-- Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,11 +120,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Date (e.g., 12/12/2024)"
+                android:hint="Enter date (e.g., 12/12/2024)"
+                android:textColorHint="@color/dark_gray"
+                android:background="@drawable/rectangle_background"
+                android:padding="12dp"
                 android:inputType="date" />
         </LinearLayout>
 
         <!-- Time -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,12 +156,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Time (e.g., 10:30 AM)"
+                android:hint="Enter time (e.g., 10:30 AM)"
+                android:textColorHint="@color/dark_gray"
+                android:background="@drawable/rectangle_background"
+                android:padding="12dp"
                 android:inputType="text" />
         </LinearLayout>
 
         <!-- Details of the Harasser -->
-        <!-- Details of the Harasser -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details of the Harasser"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -123,34 +188,31 @@
                 android:layout_marginEnd="8dp" />
 
             <EditText
-            android:id="@+id/etHarasserDetails"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Details of the Harasser"
-            android:inputType="textMultiLine"
-            android:lines="5"
-            android:minLines="3"
-            android:gravity="start|top"
-            android:scrollbars="vertical"
-            android:overScrollMode="always"
-            android:background="@android:drawable/edit_text"
-            android:padding="8dp" />
-
+                android:id="@+id/etHarasserDetails"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Enter details of the harasser"
+                android:textColorHint="@color/dark_gray"
+                android:background="@drawable/rectangle_background"
+                android:padding="12dp"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:minLines="3"
+                android:gravity="start|top"
+                android:scrollbars="vertical"
+                android:overScrollMode="always" />
         </LinearLayout>
-
 
         <!-- Submit Button -->
         <Button
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Next"
+            android:text="Submit"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/purple"
             android:textColor="@android:color/white" />
 
     </LinearLayout>
 </ScrollView>
-
-    <!-- Harassment Types Array -->

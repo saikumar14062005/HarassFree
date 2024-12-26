@@ -45,9 +45,24 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.database)
     implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation (libs.glide)
+
+
+    implementation (libs.play.services.auth)
+
+
+
+
+
+//    implementation(libs.jakarta.mail)
+//    implementation(libs.jakarta.activation)
+//    implementation (libs.android.mail)
+//    implementation (libs.android.activation)
+
 //    implementation (libs.sendgrid.java)
 //    implementation (libs.sendgrid.gson)
     // Import the BoM for the Firebase platform
