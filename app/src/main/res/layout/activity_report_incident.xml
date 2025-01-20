@@ -52,7 +52,7 @@
                 android:layout_weight="1"
                 android:entries="@array/harassment_types"
                 android:spinnerMode="dropdown"
-                android:prompt="@string/types_of_harassment"/>
+                android:prompt="@string/types_of_harassment" />
         </LinearLayout>
 
         <!-- Location -->
@@ -115,16 +115,16 @@
                 android:contentDescription="Date Icon"
                 android:layout_marginEnd="8dp" />
 
-            <EditText
-                android:id="@+id/etDate"
+            <TextView
+                android:id="@+id/tvDate"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Enter date (e.g., 12/12/2024)"
-                android:textColorHint="@color/dark_gray"
                 android:background="@drawable/rectangle_background"
                 android:padding="12dp"
-                android:inputType="date" />
+                android:textColor="@color/black"
+                android:hint="Select date"
+                android:gravity="center_vertical" />
         </LinearLayout>
 
         <!-- Time -->
@@ -156,11 +156,14 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:hint="Enter time (e.g., 10:30 AM)"
-                android:textColorHint="@color/dark_gray"
                 android:background="@drawable/rectangle_background"
                 android:padding="12dp"
-                android:inputType="text" />
+                android:textColor="@color/black"
+                android:hint="Select time"
+                android:gravity="center_vertical"
+                android:focusable="false"
+                android:clickable="true" />
+
         </LinearLayout>
 
         <!-- Details of the Harasser -->
